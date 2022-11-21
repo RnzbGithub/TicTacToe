@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Comfortaa';
+}
+
+.background {
+    background-image: url("https://i.etsystatic.com/22084600/r/il/0d5750/2879553365/il_fullxfull.2879553365_qr91.jpg");
+    background-size: contain;
+    height: 100vh;
+    padding-top: 1px;
+}
+.title {
+    color: rgb(220, 93, 165);
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10%;
+}
+
+.display {
+    color: rgb(88, 251, 23);
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.hide {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 33% 33% 33%;
+    max-width: 300px;
+
+}
+.tile {
+    border: 1px double rgb(13, 70, 175);
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+.playerX {
+    color: #c3b009;
+}
+
+.playerO {
+    color: #6449fb;
+}
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+.controls button {
+    color: rgb(118, 238, 25);
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
+}
+.restart {
+    background-color: #49d1fb;
+}
+
+#gamenew {
+    background-color: #2611e0;
+
+}
+#roundreset {
+    background-color: #2611e0;
+}
+table {
+    color: #6449fb;
+    background-color: black;
+}
